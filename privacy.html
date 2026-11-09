@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeCam Backup Privacy</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 16px; color: #222; background: #fff; }
+  h1 { font-size: 1.6em; } h2 { font-size: 1.2em; margin-top: 1.6em; }
+  a { color: #0b57d0; }
+</style>
+</head>
+<body>
+<h1>HomeCam Backup — Privacy policy</h1>
+<p>Last updated: 9 November 2026</p>
+
+<h2>Who uses the app</h2>
+<p>HomeCam Backup is a personal app used by one household on its own phone. It is not
+distributed to the public.</p>
+
+<h2>What data the app handles</h2>
+<ul>
+  <li><strong>Video and audio clips</strong> from the household's own cameras, recorded on the phone.</li>
+  <li><strong>Camera login details</strong> (the cameras' local account), stored only on the phone.</li>
+  <li><strong>A status file</strong> (<code>status.json</code>) with the app's health: camera states,
+    battery temperature, pending uploads and recent app log lines.</li>
+</ul>
+
+<h2>Google user data</h2>
+<p>The app asks for one Google permission: <code>https://www.googleapis.com/auth/drive.file</code>.
+This lets it create files and folders in the signed-in user's Google Drive and manage only the
+files it created itself. It cannot see or change any other files in that Drive.</p>
+<p>The app uses this permission only to:</p>
+<ul>
+  <li>upload the recorded clips and the status file to a <code>HomeCamBackup</code> folder;</li>
+  <li>check the Drive's free space; and</li>
+  <li>delete clips it uploaded once they are older than the retention period set in the app.</li>
+</ul>
+<p>Google user data is not sent anywhere else, is not shared with anyone, is not sold, and is not
+used for advertising or to train any AI or machine-learning models. The app's use of information
+received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements.</p>
+
+<h2>Where data is stored</h2>
+<p>Clips are kept temporarily on the phone until uploaded, then in the user's own Google Drive.
+The app has no server of its own; the developer receives no data from it.</p>
+
+<h2>Deleting data</h2>
+<p>Uninstalling the app deletes everything it stored on the phone. Clips in Google Drive can be
+deleted at any time from the <code>HomeCamBackup</code> folder, and the app's access can be removed
+at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: use the support email shown on the app's Google sign-in screen.</p>
+</body>
+</html>
